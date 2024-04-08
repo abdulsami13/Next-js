@@ -1,16 +1,17 @@
 import Image from "next/image";
 import Card from "../../Components/Card";
+import Slider from "../../Components/Slider";
 
 export default function Home() {
   return (
 <div>
   
 
-<header>
-  <h1>sad</h1>
-</header>
+
+<Slider/>
 <div className="flex ">
 
+<Card/>
 <Card/>
 </div>
 
